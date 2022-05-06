@@ -11,7 +11,7 @@ class Settings(BaseSettings):
     jwt_expiration: int = 3600
 
     class Config:
-        env_file = '../.env'
+        env_file = '.env'
         env_file_encoding = 'utf-8'
 
 
